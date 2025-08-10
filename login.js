@@ -1,6 +1,6 @@
 function checkDate() {
     const input = document.getElementById('dob').value.trim();
-    const correctDate = "07/05/2000"; // Cambia por la fecha real de Fátima
+    const correctDate = "07/07/2021"; // Cambia por la fecha real de Fátima
 
     if (input === correctDate) {
         window.location.href = "main.html";
