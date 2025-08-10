@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-body {
+    background: linear-gradient(to right, #ff9a9e, #fecfef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(255, 0, 150, 0.3);
+}
+
+.login-container input {
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-container button {
+    background: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-body {
+    background: #ffdde1;
+    overflow: hidden;
+    text-align: center;
+    color: #d6336c;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 150, 0.4);
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
